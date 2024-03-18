@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    padding-top: 12rem;
+    background-color: rgb(15, 10, 10);
+}
+#operator{
+        background-color: rgb(229, 155, 18);
+    }
+    #operator:hover{
+        background-color: bisque;
+    }
+    #equal{
+        background-color: bisque;
+    }
+    #equal:hover{
+        background-color: rgb(229, 155, 18);
+    }
+button {
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    background-color:white;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4 , 2fr);
+    padding: 22px;
+    gap: 4px;
+    
+}
+.Calculator{
+    font-family:  Arial, sans-serif;
+    background-color: rgb(215, 191, 244);
+    border-radius: 12px;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 500px;
+    align-items: center;
+    border: 4px solid rgb(239, 157, 42);
+
+}
+#display{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 3rem;   
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+button:hover{
+    background-color:rgb(107, 108, 108) ;
+}
+
